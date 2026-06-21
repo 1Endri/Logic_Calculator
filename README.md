@@ -96,6 +96,6 @@ To start a new expression, click **Clear**.
 ## Known limitations
 
 - Expressions are evaluated strictly left-to-right with no operator precedence.
-- Parentheses buttons are available in the UI but are not processed by the evaluator; they are cosmetic grouping aids only.
+- Parentheses buttons are available in the UI but are not processed by the evaluator; they are only cosmetic grouping aids.
 - Chained unary NOT (e.g., `NOT NOT T`) is not supported.
 - Only literal `T` / `F` operands are supported — no variable names.
